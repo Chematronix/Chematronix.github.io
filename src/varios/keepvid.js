@@ -16,7 +16,7 @@ if(d.location.href.match(/youtube.com/i)){
 	if(fmt == ''){
 		var kvajax=false;
 		if (!kvajax && typeof XMLHttpRequest!='undefined'){kvajax = new XMLHttpRequest();}
-		kvajax.open("GET", "http://www.youtube.com/get_video_info?video_id="+video_id+"&asv=3&el=detailpage&hl=en_US&sts=1588", true);
+		kvajax.open("GET", "https://www.youtube.com/get_video_info?video_id="+video_id+"&asv=3&el=detailpage&hl=en_US&sts=1588", true);
 		kvajax.onreadystatechange=function() {
 			if (kvajax.readyState==4) {
 				title=i(kvajax.responseText,'&title=','&');
