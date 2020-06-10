@@ -6,7 +6,7 @@
 // @version         01
 // @include         https://*coursera.org/learn/*
 // @grant           GM_addStyle
-// @updateUrl   	http://codigo.medio.click/GreaseMonkey_Userscripts(make_the_web_better)/Coursera_-_Place_transcript_next_to_video.user.js
+// @updateUrl   	http://codigo.medio.click/GreaseMonkey_Userscripts_(make_the_web_better)/Coursera_-_Place_transcript_next_to_video.user.js
 // ==/UserScript==
 
 GM_addStyle(`
